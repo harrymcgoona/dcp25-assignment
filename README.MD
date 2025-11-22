@@ -2,9 +2,9 @@
 
 - [Assignment Brief](assignment.md)
 
-Name:
+Name: Harry McGoona
 
-Student Number: 
+Student Number: C24342003 
 
 # Screenshots
 
@@ -104,3 +104,4 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
