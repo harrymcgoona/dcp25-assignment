@@ -2,6 +2,15 @@ import os
 import sqlite3
 import pandas as pd
 
+# I'm enabling these Pandas settings so I can actually SEE all the rows during testing. Without this, Pandas keeps hiding most of the entries.
+pd.set_option('display.max_rows', None)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 1000)
+pd.set_option('display.max_colwidth', None)
+
+BOOKS_DIR = "abc_books"
+DB_NAME = "tunes.db"
+
 # 1. READ ABC FILES FROM MULTIPLE FOLDERS & 2. PARSE AND STORE TUNES INTO A LIST OF DICTIONARIES
 def parse_abc_file(file_path):
     tunes = []
