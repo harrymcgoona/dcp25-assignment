@@ -7,6 +7,7 @@ Name: Harry McGoona
 Student Number: C24342003 
 
 # Screenshots
+Processing Book 1...
 ![](images/Screenshot%202025-11-25%20180809.png)
 ![](images/Screenshot%202025-11-25%20180821.png)
 ![](images/Screenshot%202025-11-25%20180834.png)
@@ -117,5 +118,6 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
