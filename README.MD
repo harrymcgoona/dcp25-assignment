@@ -35,10 +35,19 @@ Show program stopping after choosing option 0 [Exit]...
 ![](images/Screenshot%202025-11-25%20181339.png)
 
 # Description of the project
+Connects to the "abc_books" database and allows a user to prompt a program to show samples of the data contained within through search terms such as filtering by book number, tune type, title, key, and showing all tunes with a sixth option allowing the user to end the program.
 
 # Instructions for use
+1. Run the program.
+2. Wait for Book 1 & 2 to finish processing.
+3. Press either 1, 2, 3, 4, 5 depending on what way you wish to filter the listed tunes. Alternatively, skip to step 6.
+4. Enter a search term (differing dependent on which filter was chosen).
+5. Repeat steps 3 & 4 if you wish.
+6. Enter 0 to end the program.
 
 # How it works:
+The program scans through the abc_books files, extracts tune information, stores everything in an SQLite database, loads it into Pandas, and then lets the user search and browse the tunes with a simple menu.
+
 
 # List of files in the project
 
@@ -130,6 +139,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
