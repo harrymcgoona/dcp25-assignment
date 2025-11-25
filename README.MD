@@ -48,6 +48,22 @@ Connects to the "abc_books" database and allows a user to prompt a program to sh
 # How it works:
 The program scans through the abc_books files, extracts tune information, stores everything in an SQLite database, loads it into Pandas, and then lets the user search and browse the tunes with a simple menu.
 
+READING AND PARSING:
+- Looks inside the abc_books folder.
+- Opens every .abc file.
+- Reads line-by-line looking for T:, R:, M:, and K:.
+- each time it encounters T: it logs a new tune.
+
+SAVING TO SQLITE DATABASE:
+- Before inserting anything the program drops the old tunes table, preventing duplicates from piling up every time the program is run.
+- Recreates the table with columns for id, title, type, meter, key, and book number.
+
+LOADING THE DATA INTO PANDAS:
+- Once the database is filled the program loads the entire table into a pandas dataframe.
+
+USER INTERFACE:
+- The program includes functions that filter the dataframe.
+- The user gets a simple text menu with options to show tunes by book, show tunes by type, search tunes by title, show tunes by key, show all tunes, and exit.
 
 # List of files in the project
 
@@ -139,6 +155,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
