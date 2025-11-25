@@ -31,7 +31,7 @@ Display output of "Enter key (e.g., G, Dm): Em"...
 ![](images/Screenshot%202025-11-25%20181159.png)
 Display (a sample of) output of choosing option 5 [Show all tunes]...
 ![](images/Screenshot%202025-11-25%20181249.png)
-Display output of choosing option 0 [Exit]...
+Show program stopping after choosing option 0 [Exit]...
 ![](images/Screenshot%202025-11-25%20181339.png)
 
 # Description of the project
@@ -130,6 +130,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
