@@ -7,6 +7,19 @@ Name: Harry McGoona
 Student Number: C24342003 
 
 # Screenshots
+![](images/Screenshot%202025-11-25%20180809.png)
+![](images/Screenshot%202025-11-25%20180821.png)
+![](images/Screenshot%202025-11-25%20180834.png)
+![](images/Screenshot%202025-11-25%20180904.png)
+![](images/Screenshot%202025-11-25%20180930.png)
+![](images/Screenshot%202025-11-25%20180954.png)
+![](images/Screenshot%202025-11-25%20181019.png)
+![](images/Screenshot%202025-11-25%20181037.png)
+![](images/Screenshot%202025-11-25%20181104.png)
+![](images/Screenshot%202025-11-25%20181120.png)
+![](images/Screenshot%202025-11-25%20181159.png)
+![](images/Screenshot%202025-11-25%20181249.png)
+![](images/Screenshot%202025-11-25%20181339.png)
 
 # Description of the project
 
@@ -104,4 +117,5 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
