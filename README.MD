@@ -69,9 +69,16 @@ USER INTERFACE:
 
 | Files | Source |
 |-----------|-----------|
-| main.py | Self written |
-| test.py | Modified from [reference]() |
-| test.py | From [reference]() |
+| abc_books | Pre-made |
+| images | Pre-made |
+| .gitignore | Pre-made |
+| LICENSE | Pre-made |
+| README.MD | Pre-made |
+| assignment.md | Pre-made |
+| assignment_code.py | Self written |
+| starter_code.py | Pre-made |
+| tunes.db | Pre-made |
+|-----------|-----------|
 
 # References
 * Item 1
@@ -155,6 +162,7 @@ This is a table:
 |Some stuff | Some more stuff in this column |
 
 |Some stuff | Some more stuff in this column |
+
 
 
 
