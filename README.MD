@@ -80,11 +80,12 @@ USER INTERFACE:
 | tunes.db | Pre-made |
 
 # References
-* Item 1
-* Item 2
+* https://thonny.org/
+* https://github.com/
 
 # What I am most proud of in the assignment
 I am most proud of the user interaction menu and the code linked to it to make it work.
 
 # What I learned
 I learnt how to show all of the database entries when prompted as opposed to only showing only the first 3 and last 3 entries of the dataset sample.
+
