@@ -62,7 +62,7 @@ def load_books_into_db():
 
     for folder_name in os.listdir(BOOKS_DIR):
         folder_path = os.path.join(BOOKS_DIR, folder_name)
-        # Checking the folder name is numeric is a simple but surprisingly effective filter.
+        # Checking the folder name is numeric is a simple but effective filter for this data.
         if os.path.isdir(folder_path) and folder_name.isdigit():
             book_number = int(folder_name)
             print(f"Processing Book {book_number}...")
@@ -70,7 +70,6 @@ def load_books_into_db():
                 if filename.endswith(".abc"):
                     file_path = os.path.join(folder_path, filename)
                     tunes = parse_abc_file(file_path)
-                    # This used to be nested incorrectly, fixed it once I noticed weird grouping.
                     for tune in tunes:
                         insert_tune(conn, tune, book_number)
 
